@@ -145,5 +145,6 @@ licznik = 0
 while licznik != len(list2):
     if list2[licznik] == 2:
         list2.remove(2)
-    licznik += 1
-    print(list2)
+    else:
+        licznik += 1
+print(list2)
